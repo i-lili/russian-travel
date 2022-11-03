@@ -5,19 +5,25 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  padding: 28px 48px 0 48px;
+  padding-top: 28px;
   box-sizing: border-box;
 }
 
 @media screen and (max-width: 1124px) {
   .header {
-    padding: 28px 24px 0 24px;
+padding-left: 48px;
+padding-right: 48px;
   }
 }
 
+@media screen and (max-width: 984px) {
+  .header {
+    padding-left: 24px;
+    padding-right: 24px;
+      }
+}
 @media screen and (max-width: 568px) {
   .header {
-    max-height: 42px;
-    padding: 16px 16px 0 24px;
+    padding: 16px 16px 0;
   }
 }

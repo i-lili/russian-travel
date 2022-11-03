@@ -1,6 +1,9 @@
+
 .place {
   display: grid;
   width: 100%;
+  box-sizing: border-box;
+
   grid-template-areas:
     "title  website"
     "image paragraphs";
@@ -19,7 +22,7 @@
   }
 }
 
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 630px) {
   .place {
     gap: 32px;
     grid-template-columns: 100%;

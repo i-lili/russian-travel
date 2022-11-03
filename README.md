@@ -15,4 +15,4 @@
 - git & GitHub
 - figma
 
-
+Ссылка на на GitHub Pages - https://i-lili.github.io/russian-travel/
